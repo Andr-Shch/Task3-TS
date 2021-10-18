@@ -1,0 +1,37 @@
+@import url('http://fonts.cdnfonts.com/css/vt323');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', sans-serif;
+}
+body{
+    background: gray;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63, 63, 253);
+    height: 80px;
+    color: white;
+}
+
+.post{
+       
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 1em auto;
+        width: 80%;
+        background: rgb(63, 63, 253);
+        padding: 1em;
+        box-shadow: -7px 7px 0 black;
+        text-shadow: -2px 2px 0px rgba(0, 0, 0);
+        color: white;
+
+}
+.post h1 {
+    font-size: 1.2rem;
+    color: rgb(159, 176, 180);
+}
